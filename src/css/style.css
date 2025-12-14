@@ -1,0 +1,32 @@
+.header-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 150px);
+}
+
+#skull-avatar-img{
+    height: 50%;
+    width: auto;
+}
+
+#headline-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skull-avatar-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+footer{
+    background-color: #5a5959;
+
+}
+body{
+    margin: 0;
+}
